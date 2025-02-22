@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Encanto Paralelo</title>
+</head>
+<body>
+    <header>
+        <h1>Livraria Encanto Paralelo</h1>
+        <h1 Livraria Encanto Parelelo > </h1>
+        <!--Esse cara dá o titulo para a o site do estabelecimento -->
+        
+        <nav> <!--Agora o menu de navegação -->
+            <ul>
+            <li><a href="#"> Inicio </a></li>
+            <li><a href="#"> Menu </a></li>
+            <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <!--Inserção de descrição -->
+        <h2>Bem vindo a Livraria Encanto Paralelo </h2>
+        <p>
+            Encanto Paralelo – Onde Cada Página é um Novo Mundo, um refúgio literário para aqueles que acreditam no poder das histórias. 
+        </p>
+        <p>
+            Nossa livraria é um portal para universos fantásticos, conhecimento sem fim e emoções inesquecíveis.
+            Aqui, cada estante guarda segredos, cada livro é uma aventura esperando para ser vivida e cada leitor encontra um novo caminho para se perder – e se encontrar.
+            Seja um amante de ficção, um curioso por filosofia ou um explorador de realidades alternativas, a Encanto Paralelo tem um espaço para você.
+        </p>
+
+        <h3>Confira nosso gêneros disponiveis </h3> 
+        <!--Inclusão de lista não ordenada-->
+        <ul>
+            <li>Romance</li>
+            <li>Dark Romance</li>
+            <li>Suspense</li>
+            <li>Terror</li>
+            <li>Comédia</li>
+            <li>Fantasia</li>
+
+        </ul>
+        <!--Inclusão das imagens -->
+    <img src="imagens/transferir.jpeg" >
+
+    <!--Inclusão de um formulário -->
+    <h4> Para saber mais sobre nossa livraria, se incriva no nosso site</h4>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" />
+        </div>
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="Tel">Telefone:</label>
+          <input id="Tel"/>
+        </div>
+        <div>
+            <label for="Msg">Sugestões</label>
+            <textarea id="Msg" name="Sugestão" rows="4" cols="40" required></textarea><br><br>
+          </div>
+
+          <label for="genero">Gênero literário favorito:</label>
+          <select id="genero" name="genero">
+              <option value="fantasia">Fantasia</option>
+              <option value="ficcao">Ficção Científica</option>
+              <option value="romance">Romance</option>
+              <option value="terror">Terror</option>
+              <option value="outro">Outro</option>
+          </select><br><br>
+          
+          <input type="checkbox" id="termos" name="termos" required>
+          <label for="termos">Aceito os termos e condições</label><br><br>
+
+          <button type="submit">Enviar</button>
+      </form>
+
+
+
+    </main> 
+</body>
+</html>
